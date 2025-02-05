@@ -8,7 +8,7 @@ export default defineConfig({
     proxy: {
       '/api': {
         // target: 'http://localhost:3000',
-        target: 'https://transaction-manager-fqb0kd8es-tejas-kurle-94s-projects.vercel.app',
+        target: 'https://transaction-manager-lemon.vercel.app',
         changeOrigin: true,
         secure: false,
         configure: (proxy, _options) => {
